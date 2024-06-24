@@ -64,6 +64,9 @@ También puede instalarse como aplicación de la siguiente manera:
 
 ![pwa](https://github.com/No-Country/s14-02m-node-react/assets/131318671/83229bb3-d95d-4c21-8c51-9e78b9d4da53)
 
+## Deploy
+https://talkiamosapp.vercel.app/
+
 
 ## Equipo
 
