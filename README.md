@@ -59,6 +59,9 @@ Siguiendo esos pasos y  estando posicionado con la terminal en la carpeta front,
 Finalmente haga Ctrl + Click en el link local: 
 
 ![run-dev](https://github.com/No-Country/s14-02m-node-react/assets/131318671/b5106f68-7dde-4849-93c7-ebe204542f5b)
+## Deploy
+
+https://talkiamosapp.vercel.app/
 
 
 ## Equipo
