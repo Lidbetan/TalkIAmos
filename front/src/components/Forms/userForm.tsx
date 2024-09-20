@@ -74,11 +74,11 @@ export default function UserForm() {
 						setErrorMsg(parseRes.error);
 						setLimitMsg({ ...limitMsg, actual: 0 });
 						return setListenLoading(false);
-					} 
+					}
 					if (parseRes.from === tempUserMessage.langCode) {
 						setMessage("");
 						setOpenError(true);
-						setErrorMsg('No es posible traducir al mismo idioma original');
+						setErrorMsg("No es posible traducir al mismo idioma original");
 						setLimitMsg({ ...limitMsg, actual: 0 });
 						return setListenLoading(false);
 					}
@@ -159,8 +159,9 @@ export default function UserForm() {
 					onChange={handleInputChange}
 				/>
 				<p
-					className={`w-full text-xs text-right pr-3 -mt-10 mb-2 ${limitMsg.actual === limitMsg.limit && "font-semibold text-primario"
-						}`}
+					className={`w-full text-xs text-right pr-3 -mt-10 mb-2 ${
+						limitMsg.actual === limitMsg.limit && "font-semibold text-primario"
+					}`}
 				>
 					{limitMsg.actual}/{limitMsg.limit}
 				</p>
